@@ -19,7 +19,7 @@
 ---------
 整个工程的目录结构如下:<br/>
 ```
-light-sample/
+light-framework-mvc-sample/
 　　┗ src/
 　　　　┗ main/
 　　　　　　┗ java/
