@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.light4j</groupId>
+	<artifactId>light-framework</artifactId>
+	<version>${light4j-framework.version}</version>
+	<packaging>pom</packaging>
+	<description>Light Framework is a  Java  Framework.</description>
+	<url>http://blog.longjiazuo.com/</url>
+	<properties>
+		<light4j-framework.version>0.0.1-SNAPSHOT</light4j-framework.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<modules>
+		<module>light-framework-mvc</module>
+    <module>light-framework-utils</module>
+  </modules>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.7.7</version>
+		</dependency>
+	</dependencies>
+</project>
