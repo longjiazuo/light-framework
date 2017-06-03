@@ -14,7 +14,8 @@
 
 	<modules>
 		<module>light-framework-mvc</module>
-    <module>light-framework-utils</module>
+		<module>light-framework-utils</module>
+    <module>light-framework-mvc-sample</module>
   </modules>
 
 	<dependencies>
